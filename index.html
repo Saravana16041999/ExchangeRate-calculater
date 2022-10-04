@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ExchangeRate-calculater</title>
+    <!-- Normilize.css -->
+    <link rel="stylesheet" href="/style/normilize.css" />
+    <!-- style.css -->
+    <link rel="stylesheet" href="/style/style.css" />
+  </head>
+  <body>
+    <div class="main-image">
+      <img src="/images/money.png" alt="money" />
+    </div>
+    <h1>Exchange Rate Calculator</h1>
+    <p>Choose the currency and the amounts to get the exchange rate</p>
+    <div class="container">
+      <div class="currency">
+        <select id="currencyOne">
+          <option value="USD">USD</option>
+        </select>
+        <input type="number" id="firstNumber" placeholder="0" />
+      </div>
+      <div class="swap">
+        <button>Swap</button>
+      </div>
+      <div class="currency">
+        <select id="currencyTwo">
+          <option value="USD">EUR</option>
+        </select>
+        <input type="number" id="SecondNumber" placeholder="0" />
+      </div>
+    </div>
+    <script src="/script/script.js"></script>
+  </body>
+</html>

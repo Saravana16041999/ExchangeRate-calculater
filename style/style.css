@@ -1,0 +1,85 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --clr-dark: #5fbaa7;
+  
+}
+
+/* pseudo elements in css */
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* global css */
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-image {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+}
+h1 {
+    color: var(--clr-dark);
+    margin-bottom: 25px;
+}
+p {
+}
+.container {
+    margin-top: 50px;
+    width: 400px;
+    height: 300px;
+}
+.currency {
+    display: flex;
+}
+.currency select {
+    padding: 7px 7px 5px 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-color: rgba(0, 0, 0, 0.102);
+    margin-left: 20px;
+    background: transparent;
+}
+.currency input {
+    width: 280px;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: transparent;
+    text-align: right;
+    border: 0;
+}
+.swap {
+    margin-left: 20px;
+}
+button {
+    padding: 5px 10px 5px 10px;
+    background-color:var(--clr-dark) ; 
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+
+}
