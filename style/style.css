@@ -74,6 +74,16 @@ p {
 }
 .swap {
     margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.rate {
+    background-color: rgba(220, 220, 220, 0.283);
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5fbaa69d;
 }
 button {
     padding: 5px 10px 5px 10px;
