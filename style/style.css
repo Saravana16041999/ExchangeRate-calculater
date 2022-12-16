@@ -76,13 +76,13 @@ p {
     margin-left: 20px;
     display: flex;
     justify-content: space-between;
+    font-size: 12px;
 }
 .rate {
-    background-color: rgba(220, 220, 220, 0.283);
     width: 200px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     color: #5fbaa69d;
 }
 button {
